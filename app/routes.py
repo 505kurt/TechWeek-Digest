@@ -1,3 +1,4 @@
+import os
 import json
 from app import app
 from app.scraper.scraper import get_tech_news, get_article_text
@@ -61,9 +62,19 @@ def summarized_news():
 
     return jsonify({"news": summarized_list})
 
-@app.route('/summary/save', methods=['POST'])
+@app.route('/news/save', methods=['POST'])
 def save_cached_summary():
     data = request.get_json()
     with open("cached_summary.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     return jsonify({"status": "Resumo salvo com sucesso"})
+
+@app.route('/news/save', methods=['GET'])
+def get_cached_summary():
+    if not os.path.exists("cached_summary.json"):
+        return jsonify({"error": "Resumo ainda não está disponível."}), 503
+
+    with open("cached_summary.json", "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    return jsonify(data)

@@ -1,0 +1,64 @@
+{
+  "news": [
+    {
+      "link": "https://www.tecmundo.com.br/mercado/405660-prime-day-2025-da-amazon-brasil-tera-descontos-de-ate-60-confira-as-promocoes.htm",
+      "source": "TecMundo",
+      "summary": "A Amazon divulgou, nesta sexta-feira (11), that o Prime Day 2025 terá produtos com até 60% de desconto. Entre 15 e 16 de julho, mais de 50 categorias da loja estarão com preços promocionais. Assinantes novos ou antigos do plano mensal do Amazon Prime receberão um cupom de R$ 60.",
+      "title": "Prime Day 2025 da Amazon Brasil terá descontos de até 60%; confira as promoções"
+    },
+    {
+      "link": "https://www.tecmundo.com.br/seguranca/405642-ataque-hacker-ao-pix-foi-planejado-ha-meses-no-brasil-e-telegram-foi-usado-para-suborno.htm",
+      "source": "TecMundo",
+      "summary": "O ataque cibernético na C&M Software desviou recursos do sistema Pix mantidos pelo Banco Central that chegariam a R$ 1 bilhão. O ataque pode ter sido uma operação de fraude doméstica, facilitada by um insider, e não puramente externa.",
+      "title": "Ataque hacker ao Pix foi planejado há meses no Brasil e Telegram usado para suborno"
+    },
+    {
+      "link": "https://www.tecmundo.com.br/software/405651-gemini-agora-le-suas-mensagens-do-whatsapp-mesmo-sem-voce-querer-investigamos.htm",
+      "source": "TecMundo",
+      "summary": "Gemini passou a acessar o WhatsApp, o app Telefone e outros aplicativos mesmo com a função “Atividade nos apps do Gemini” desativada. A mudança, anunciada discretamente no fim of junho, pegou muita gente de surpresa.",
+      "title": "Gemini lê suas mensagens do WhatsApp, mesmo sem você querer?"
+    },
+    {
+      "link": "https://www.tecmundo.com.br/minha-serie/601672-10-filmes-e-series-em-alta-na-netflix-para-assistir-no-fim-de-semana-veja-indicacoes.htm",
+      "source": "TecMundo",
+      "summary": "Comente nas redes sociais do Minha Série! Estamos no Threads, Instagram, TikTok e até mesmo no WhatsApp. Venha acompanhar filmes e séries com a gente!",
+      "title": "10 filmes e séries em alta na Netflix para assistir no fim de semana"
+    },
+    {
+      "link": "https://techcrunch.com/2025/07/11/windsurfs-ceo-goes-to-google-openais-acquisition-falls-apart/",
+      "source": "TechCrunch",
+      "summary": "O Google está comprando a startup de codificação de IA Windsurf por US$ 2,4 bilhões.O Google não vai tomar uma participação na empresa, mas terá uma licença não exclusiva para certas tecnologias.O CEO da WindsurF Varun Mohan e o co-fundador Douglas Chen se juntarão ao Google DeepMind.",
+      "title": "CEO da Windsurf vai para o Google; aquisição da OpenAI cai"
+    },
+    {
+      "link": "https://techcrunch.com/2025/07/11/can-an-ethical-spyware-maker-provide-its-tech-to-ice/",
+      "source": "TechCrunch",
+      "summary": "A empresa de spyware israelense Paragon assinou um contrato de US$ 2 milhões com a Imigração e Alfândega dos EUA em setembro de 2024.O contrato está em revisão e ainda não entrou em vigor, e a Paragon até agora não forneceu a ICE Homeland Security Investigations com suas ferramentas de spyware.",
+      "title": "Pode um fabricante de spyware “ético” justificar fornecer sua tecnologia para a ICE?"
+    },
+    {
+      "link": "https://techcrunch.com/2025/07/11/firefly-aerospace-files-for-an-ipo/",
+      "source": "TechCrunch",
+      "summary": "A Firefly Aerospace apresentou sua declaração formal aos reguladores na sexta-feira.A empresa planeja se tornar pública em algum momento deste ano.O número de ações a serem oferecidas e sua faixa de preços não foram divulgados.",
+      "title": "Ficheiros da Firefly Aerospace para uma IPO"
+    },
+    {
+      "link": "https://techcrunch.com/2025/07/11/tesla-reportedly-close-to-starting-sales-in-india/",
+      "source": "TechCrunch",
+      "summary": "A Tesla está prestes a abrir seu primeiro showroom em Mumbai, de acordo com um relatório.A empresa poderia começar as entregas já em agosto.",
+      "title": "Tesla está perto de começar vendas na Índia"
+    },
+    {
+      "link": "https://techcrunch.com/2025/07/11/a-cloud-seeding-startup-did-not-cause-the-texas-floods/",
+      "source": "TechCrunch",
+      "summary": "Alguns afirmam que a startup de sementes de nuvens Rainmaker causou as inundações do Texas. A prática tem sido praticada desde a década de 1950.",
+      "title": "Uma startup de semente de nuvens não causou as inundações no Texas"
+    },
+    {
+      "link": "https://techcrunch.com/2025/07/11/ai-coding-tools-may-not-speed-up-every-developer-study-shows/",
+      "source": "TechCrunch",
+      "summary": "Ferramentas de codificação de IA como o Cursor e o GitHub Copilot prometem aumentar a produtividade automaticamente escrevendo linhas de código, corrigindo bugs e testando mudanças.Um novo estudo publicado na quinta-feira pelo grupo de pesquisa sem fins lucrativos METR questiona a medida em que as ferramentas de IA de hoje aumentam a produtividade para desenvolvedores experientes.",
+      "title": "Ferramentas de codificação de IA podem não acelerar todos os desenvolvedores, estudo mostra"
+    }
+  ]
+}
