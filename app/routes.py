@@ -1,3 +1,4 @@
+import json
 from app import app
 from app.scraper.scraper import get_tech_news, get_article_text
 from app.summarizer.summarizer import summarize_text
@@ -59,3 +60,10 @@ def summarized_news():
         })
 
     return jsonify({"news": summarized_list})
+
+@app.route('/summary/save', methods=['POST'])
+def save_cached_summary():
+    data = request.get_json()
+    with open("cached_summary.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    return jsonify({"status": "Resumo salvo com sucesso"})

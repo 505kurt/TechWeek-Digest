@@ -1,0 +1,23 @@
+import requests
+import json
+import os
+
+API_URL = os.environ.get("API_URL")
+LIMIT = 10
+
+def run_job():
+    try:
+        resp = requests.get(f"{API_URL}/news/summary?limit={LIMIT}", timeout=60)
+        resp.raise_for_status()
+        summary = resp.json()
+
+        save_resp = requests.post(f"{API_URL}/summary/save", json=summary, timeout=10)
+        save_resp.raise_for_status()
+
+        print("[Job] Resumo salvo com sucesso.")
+
+    except Exception as e:
+        print(f"[Job] Erro ao atualizar resumo: {e}")
+
+if __name__ == "__main__":
+    run_job()
