@@ -4,6 +4,7 @@ from app import app
 from app.scraper.scraper import get_tech_news, get_article_text
 from app.summarizer.summarizer import summarize_text
 from app.summarizer.translator import translate_text
+from app.save_summary import run_job
 from flask import jsonify, request
 
 @app.route("/")
@@ -78,3 +79,7 @@ def get_cached_summary():
         data = json.load(f)
 
     return jsonify(data)
+
+@app.route('/cron-job', methods='post')
+def cache_summary():
+    run_job()

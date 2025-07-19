@@ -9,11 +9,11 @@ LIMIT = 10
 
 def run_job():
     try:
-        resp = requests.get(f"http://127.0.0.1:5000/news/summary", timeout=90)
+        resp = requests.get(f"{API_URL}/news/summary", timeout=90)
         resp.raise_for_status()
         summary = resp.json()
 
-        save_resp = requests.post(f"http://127.0.0.1:5000/news/save", json=summary, timeout=30)
+        save_resp = requests.post(f"{API_URL}/news/save", json=summary, timeout=30)
         save_resp.raise_for_status()
 
         print("[Job] Resumo salvo com sucesso.")
