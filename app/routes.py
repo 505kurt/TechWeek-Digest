@@ -80,6 +80,6 @@ def get_cached_summary():
 
     return jsonify(data)
 
-@app.route('/cron-job', methods='post')
+@app.route('/cron-job', methods=['post'])
 def cache_summary():
     run_job()
